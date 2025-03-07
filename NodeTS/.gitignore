@@ -1,0 +1,54 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript build output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debugging
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.idea/
+*.iml
+
+# Optional: Remove if using Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Optional: Prisma (if using it)
+prisma/migrations/
+prisma/dev.db
+
+# Optional: Remove if not using Jest
+coverage/
+jest-cache/
+jest/
+
+# Optional: Remove if not using ESLint/Prettier
+.eslintcache
+.prettiercache
